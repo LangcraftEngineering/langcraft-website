@@ -15,14 +15,8 @@ const Footer = () => {
               Empowering domain experts with tailored DSLs and language engineering solutions.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="h-10 w-10 rounded-full bg-neutral-800 flex items-center justify-center hover:bg-primary-900 transition-colors">
-                <Twitter className="h-5 w-5 text-white" />
-              </a>
-              <a href="#" className="h-10 w-10 rounded-full bg-neutral-800 flex items-center justify-center hover:bg-primary-900 transition-colors">
+              <a href="https://www.linkedin.com/company/langcraft/" className="h-10 w-10 rounded-full bg-neutral-800 flex items-center justify-center hover:bg-primary-900 transition-colors">
                 <Linkedin className="h-5 w-5 text-white" />
-              </a>
-              <a href="#" className="h-10 w-10 rounded-full bg-neutral-800 flex items-center justify-center hover:bg-primary-900 transition-colors">
-                <Github className="h-5 w-5 text-white" />
               </a>
             </div>
           </div>
@@ -91,12 +85,8 @@ const Footer = () => {
               <li className="text-neutral-400">
                 <span className="block">Phone:</span>
                 <a href="tel:+15551234567" className="hover:text-white transition-colors">
-                  +1 (555) 123-4567
+                  +91 8971000752
                 </a>
-              </li>
-              <li className="text-neutral-400">
-                <span className="block">Address:</span>
-                <span>San Francisco, CA</span>
               </li>
             </ul>
           </div>

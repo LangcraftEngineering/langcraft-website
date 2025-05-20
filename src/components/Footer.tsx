@@ -15,7 +15,7 @@ const Footer = () => {
               Empowering domain experts with tailored DSLs and language engineering solutions.
             </p>
             <div className="flex space-x-4">
-              <a href="https://www.linkedin.com/company/langcraft/" className="h-10 w-10 rounded-full bg-neutral-800 flex items-center justify-center hover:bg-primary-900 transition-colors">
+              <a href="https://www.linkedin.com/company/langcraft/" className="h-10 w-10 rounded-full bg-neutral-800 flex items-center justify-center hover:bg-primary-900 transition-colors" target="_blank">
                 <Linkedin className="h-5 w-5 text-white" />
               </a>
             </div>

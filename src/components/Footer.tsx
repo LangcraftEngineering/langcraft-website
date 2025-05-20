@@ -78,8 +78,8 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="text-neutral-400">
                 <span className="block">Email:</span>
-                <a href="mailto:contact@langcraft.com" className="hover:text-white transition-colors">
-                  contact@langcraft.com
+                <a href="mailto:contact@langcraft.tech" className="hover:text-white transition-colors">
+                  contact@langcraft.tech
                 </a>
               </li>
               <li className="text-neutral-400">

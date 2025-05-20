@@ -22,7 +22,7 @@ const Contact = () => {
     
     const subject = `Request to contact from ${formState.name}`;
     const body = `Name: ${formState.name}\nEmail: ${formState.email}\n\nMessage:\n${formState.message}`;
-    const mailtoLink = `mailto:contact@langcraft.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:contact@langcraft.tech?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoLink;
   };
   
@@ -48,7 +48,7 @@ const Contact = () => {
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold text-neutral-900">Email</h3>
-                    <p className="text-neutral-700">contact@langcraft.com</p>
+                    <p className="text-neutral-700">contact@langcraft.tech</p>
                   </div>
                 </div>
                 

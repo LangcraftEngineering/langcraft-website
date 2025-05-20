@@ -22,7 +22,7 @@ const Contact = () => {
     
     const subject = `Request to contact from ${formState.name}`;
     const body = `Name: ${formState.name}\nEmail: ${formState.email}\n\nMessage:\n${formState.message}`;
-    const mailtoLink = `mailto:contact@p13tech.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:contact@langcraft.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoLink;
   };
   

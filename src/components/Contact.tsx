@@ -24,23 +24,6 @@ const Contact = () => {
         e.preventDefault();
         setIsSubmitting(true);
 
-        // Simulate form submission
-        setTimeout(() => {
-            setIsSubmitting(false);
-            setIsSubmitted(true);
-            setFormState({
-                name: "",
-                email: "",
-                company: "",
-                message: "",
-            });
-
-            // Reset success message after 5 seconds
-            setTimeout(() => {
-                setIsSubmitted(false);
-            }, 5000);
-        }, 1500);
-
         try {
             const templateParams = {
                 email: formState.email,

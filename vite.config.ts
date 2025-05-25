@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 import javascriptObfuscator from "vite-plugin-javascript-obfuscator";
 
 export default defineConfig({
-    base: "/langcraft-website/",
+    base: "/langcraft-website",
     plugins: [
         react(),
         javascriptObfuscator({

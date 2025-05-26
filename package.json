@@ -10,7 +10,7 @@
         "lint": "eslint .",
         "preview": "vite preview",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist"
+        "deploy": "gh-pages -d dist --cname www.langcraft.tech"
     },
     "dependencies": {
         "@astrojs/mdx": "^2.1.1",

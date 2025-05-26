@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 import javascriptObfuscator from "vite-plugin-javascript-obfuscator";
 
 export default defineConfig({
-    base: "/",
+    base: "./",
     plugins: [
         react(),
         javascriptObfuscator({
